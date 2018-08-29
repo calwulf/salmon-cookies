@@ -1,0 +1,29 @@
+{
+  "name": "salmon-cookies",
+  "version": "1.0.0",
+  "description": "Website for Pat's Pet Bakery",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calwulf/salmon-cookies.git"
+  },
+  "keywords": [
+    "cat",
+    "kitten",
+    "dog",
+    "puppy",
+    "food",
+    "treat",
+    "seattle"
+  ],
+  "author": "Caleb Wulf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calwulf/salmon-cookies/issues"
+  },
+  "homepage": "https://github.com/calwulf/salmon-cookies#readme"
+}
