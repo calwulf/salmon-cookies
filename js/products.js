@@ -1,0 +1,223 @@
+var products = [
+
+    {
+        image:"kobwshoes.png",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["9, 10, 13, 15"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "nike",
+        categories: ["womens"],
+        product_id:"C1900"
+    },
+    {
+        image:"kobemenshoe.png",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["7, 9, 10, 12, 14"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "adidas",
+        categories: ["mens"],
+        product_id:"C1901"
+    },
+    {
+        image:"grey and white.jpg",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["8, 9, 10, 11, 12, 14"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "nike",
+        categories: ["womens"],
+        product_id:"C1902"
+    },
+    {
+        image:"green and gold.jpg",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["9, 10 ,11"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "nike",
+        categories: ["womens"],
+        product_id:"C1903"
+    },
+    {
+        image:"green and blue.jpg",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["9, 10, 11, 12, 13, 14, 15"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "nike",
+        categories: ["mens"],
+        product_id:"C1904"
+    },
+    {
+        image:"grey and white.jpg",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["7, 8, 9, 10, 13, 14"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "under armour",
+        categories: ["mens", "womens"],
+        product_id:"C1905"
+    },
+    {
+        image:"orange and grey.jpg",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["9, 10, 11, 12, 13, 14, 15"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "nike",
+        categories: ["womens"],
+        product_id:"C1906"
+    },
+    {
+        image:"pink and black.jpg",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["9, 10, 11, 12, 13"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "adidas",
+        categories: ["mens"],
+        product_id:"C1907"
+    },
+    {
+        image:"pink and gray.jpg",
+        title: "Nike Kobe Shoes",
+        price:"99.90",
+        size:["9, 10, 11, 13"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "nike",
+        categories: ["mens", "womens"],
+        product_id:"C1908"
+    },
+    {
+        image:"pur and neon green.jpg",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["men", "women"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "nike",
+        categories: ["mens"],
+        product_id:"C1909"
+    },
+    {
+        image:"purple and aqua.jpg",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["men", "women"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "nike",
+        categories: ["womens"],
+        product_id:"C1910"
+    },
+    {
+        image:"purple and gold.jpg",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["men", "women"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "under armour",
+        categories: ["mens", "womens"],
+        product_id:"C19011"
+    },
+    {
+        image:"kobemensshoes.png",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["men", "women"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "nike",
+        categories: ["mens", "womens"],
+        product_id:"C19012"
+    },
+    {
+        image:"purple and grey.jpg",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["men", "women"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "adidas",
+        categories: ["mens", "womens"],
+        product_id:"C19013"
+    },
+    {
+        image:"purple and yellow.jpg",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["men", "women"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "nike",
+        categories: ["mens", "womens"],
+        product_id:"C1914"
+    },
+    {
+        image:"red and black.jpg",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["men", "women"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "under armour",
+        categories: ["mens", "womens"],
+        product_id:"C1915"
+    },
+    {
+        image:"usa.jpg",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["men", "women"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "nike",
+        categories: ["mens", "womens"],
+        product_id:"C1916"
+    },
+    {
+        image:"white and black.jpg",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["men", "women"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "nike",
+        categories: ["mens", "womens"],
+        product_id:"C1917"
+    },
+    {
+        image:"white and gold.jpg",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["men", "women"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "under armour",
+        categories: ["mens", "womens"],
+        product_id:"C1918"
+    },
+    {
+        image:"white and purple.jpg",
+        title: "Nike Kobe Shoes",
+        price: "99.90",
+        size: ["men", "women"],
+        description: "Store that sells Kobe Bryan apperell",
+        colors: ["purple", "black"],
+        brand: "adidas",
+        categories: ["mens", "womens"],
+        product_id:"C19019"
+    },
+];
